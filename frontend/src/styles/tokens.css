@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Syne:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+:root {
+  /* ── Void (Warm Light Beige Backgrounds) ───────────── */
+  --void:       #FAF7F0; /* Soft warm light sand/cream */
+  --field:      #F3EDE2; /* Input fields and panels */
+  --lift:       #EDE7DC; /* Slightly darker sand for lifted panels */
+  --recess:     #E5DCBE; /* Deep recessed background */
+
+  /* ── Cream (Dark Charcoal/Espresso Primary Text) ───── */
+  --cream:      #1B1A17; /* Very dark warm charcoal */
+  --cream-rgb:  27, 26, 23;
+  --cream-60:   rgba(var(--cream-rgb), 0.60);
+  --cream-25:   rgba(var(--cream-rgb), 0.25);
+  --cream-10:   rgba(var(--cream-rgb), 0.10);
+  --cream-05:   rgba(var(--cream-rgb), 0.05);
+
+  /* ── Acid (Rich Tactical Forest Green Accent) ──────── */
+  --acid:       #1E4637; /* Premium tactical dark forest green */
+  --acid-15:    rgba(30, 70, 55, 0.15);
+  --acid-08:    rgba(30, 70, 55, 0.08);
+  --acid-border:rgba(30, 70, 55, 0.30);
+
+  /* ── Risk Tier (High contrast, highly legible) ─────── */
+  --r-critical: #C22F2F; /* Warm dark red */
+  --r-critical-bg: rgba(194, 47, 47, 0.08);
+  --r-high:     #D35400; /* Warm dark orange */
+  --r-high-bg:  rgba(211, 84, 0, 0.08);
+  --r-medium:   #B58900; /* Warm gold/mustard */
+  --r-medium-bg: rgba(181, 137, 0, 0.08);
+  --r-low:      #2A7B4C; /* Soft dark forest green */
+  --r-low-bg:   rgba(42, 123, 76, 0.08);
+  --r-unknown:  rgba(var(--cream-rgb), 0.20);
+  --r-unknown-bg: rgba(var(--cream-rgb), 0.04);
+
+  /* ── Structural lines ────────────────────────────── */
+  --rule:       rgba(var(--cream-rgb), 0.08);
+  --rule-strong:rgba(var(--cream-rgb), 0.18);
+  --rule-accent:rgba(30, 70, 55, 0.25);
+
+  /* ── Typography scale (referenced in Tailwind) ───── */
+  --font-display:'Bebas Neue', sans-serif;
+  --font-serif:  'Cormorant Garamond', serif;
+  --font-ui:     'Syne', sans-serif;
+  --font-mono:   'JetBrains Mono', monospace;
+
+  /* ── Spacing (4px grid) ──────────────────────────── */
+  --sp-1:4px; --sp-2:8px; --sp-3:12px; --sp-4:16px;
+  --sp-5:20px; --sp-6:24px; --sp-8:32px; --sp-10:40px;
+  --sp-12:48px; --sp-16:64px; --sp-24:96px;
+
+  /* ── Layout ──────────────────────────────────────── */
+  --sidebar-w:  56px;
+  --topbar-h:   48px;
+
+  /* ── Transition ──────────────────────────────────── */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in:  cubic-bezier(0.4, 0, 1, 1);
+  --t-fast:   120ms;
+  --t-base:   220ms;
+  --t-slow:   400ms;
+}
+
